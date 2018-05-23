@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d66acd7-37fd-47d5-bb15-466b349423d4" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Salary Peeker" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Salary Peeker" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Salary Peeker" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SalaryPeekerDbContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <marker date="1527044974309" expanded="true" signature="6:67" ph="..." />
+                <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
+                <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
+                <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
+                <marker date="1527044974309" expanded="true" signature="317:337" ph="{...}" />
+                <marker date="1527044974309" expanded="true" signature="496:663" ph="{...}" />
+                <marker date="1527044974309" expanded="true" signature="552:653" ph="{...}" />
+                <marker date="1527044974309" expanded="true" signature="739:1662" ph="{...}" />
+                <marker date="1527044974309" expanded="true" signature="805:1649" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaryController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1527045213700" expanded="true" signature="6:177" ph="..." />
+                <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
+                <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
+                <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
+                <marker date="1527045213700" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+                <marker date="1527045213700" expanded="true" signature="598:742" ph="{...}" />
+                <marker date="1527045213700" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+                <marker date="1527045213700" expanded="true" signature="1083:2103" ph="{...}" />
+                <marker date="1527045213700" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+                <marker date="1527045213700" expanded="true" signature="1443:1719" ph="{...}" />
+                <marker date="1527045213700" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+                <marker date="1527045213700" expanded="true" signature="2287:2465" ph="{...}" />
+                <marker date="1527045213700" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+                <marker date="1527045213700" expanded="true" signature="2621:2788" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/SalaryRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/SalaryController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Models/SalaryRecord.cs" />
+        <option value="$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Controllers/SalaryController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Persistence" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d66acd7-37fd-47d5-bb15-466b349423d4" name="Default" comment="" />
+      <created>1527044369251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527044369251</updated>
+      <workItem from="1527044371154" duration="1681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1681000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" weight="0.44117647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" weight="0.32956383" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Models/SalaryRecord.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1527044911321" expanded="true" signature="6:47" ph="..." />
+            <marker date="1527044911321" expanded="true" signature="82:701" ph="{...}" />
+            <marker date="1527044911321" expanded="true" signature="114:699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c5eaaee-0e06-4343-8656-71c0dbf3b755/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <marker date="1527045063816" expanded="true" signature="6:266" ph="..." />
+            <marker date="1527045063816" expanded="true" signature="294:1447" ph="{...}" />
+            <marker date="1527045063816" expanded="true" signature="321:1445" ph="{...}" />
+            <marker date="1527045063816" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527045063816" expanded="true" signature="666:975" ph="{...}" />
+            <marker date="1527045063816" expanded="true" signature="1163:1439" ph="{...}" />
+            <marker date="1527045063816" expanded="true" signature="1210:1287" ph="{...}" />
+            <marker date="1527045063816" expanded="true" signature="1304:1363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <marker date="1527044974309" expanded="true" signature="6:67" ph="..." />
+            <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="317:337" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="496:663" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="552:653" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="739:1662" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="805:1649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1527045213700" expanded="true" signature="6:177" ph="..." />
+            <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527045213700" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527045213700" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527045213700" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527045213700" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527045213700" expanded="true" signature="2621:2788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

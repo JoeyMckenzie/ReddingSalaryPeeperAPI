@@ -1,0 +1,14 @@
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/SalaryPeeker.API.deps.json
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/SalaryPeeker.API.runtimeconfig.json
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/SalaryPeeker.API.runtimeconfig.dev.json
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/SalaryPeeker.API.dll
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/SalaryPeeker.API.pdb
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csprojAssemblyReference.cache
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csproj.CoreCompileInputs.cache
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.RazorAssemblyInfo.cache
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.RazorAssemblyInfo.cs
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.AssemblyInfoInputs.cache
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.AssemblyInfo.cs
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.RazorTargetAssemblyInfo.cache
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.dll
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.pdb
