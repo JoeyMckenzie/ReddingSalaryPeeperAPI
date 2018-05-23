@@ -6,4 +6,7 @@
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.0-rc1-final" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.0-rc1-final" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="SalaryPeeker.db" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 </Project>

@@ -99,10 +99,8 @@
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.WebSockets.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.WebUtilities.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.CSharp.dll
-/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.Razor.dll
-/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.Workspaces.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.CSharp.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.Data.Sqlite.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.DotNet.PlatformAbstractions.dll
@@ -188,11 +186,6 @@
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.EventBasedAsync.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.Primitives.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.TypeConverter.dll
-/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Composition.AttributedModel.dll
-/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Composition.Convention.dll
-/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Composition.Hosting.dll
-/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Composition.Runtime.dll
-/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Composition.TypedParts.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Configuration.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Console.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Core.dll
@@ -333,3 +326,5 @@
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/System.Xml.XPath.XDocument.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/WindowsBase.dll
 /Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/obj/Debug/netcoreapp2.1/SalaryPeeker.API.RazorAssemblyInfoInputs.cache
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/SalaryPeeker.db
+/Users/joey/asp/ng-apps/ReddingSalaryPeeker/SalaryPeeker.API/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
