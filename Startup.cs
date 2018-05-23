@@ -23,6 +23,8 @@ namespace SalaryPeeker.API
             // Add SQLite
             services.AddDbContext<SalaryPeekerDbContext>(options => 
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddCors();
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -39,6 +41,9 @@ namespace SalaryPeeker.API
                 app.UseHsts();
             }
 
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyHeader());
             app.UseHttpsRedirection();
             app.UseMvc();
         }

@@ -2425,13 +2425,13 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
-      "Microsoft.NETCore.App/2.1.0-preview2-26406-04": {
+      "Microsoft.NETCore.App/2.1.0-rc1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.1.0-preview2-26406-04",
-          "Microsoft.NETCore.Platforms": "2.1.0-preview2-26406-04",
-          "Microsoft.NETCore.Targets": "2.1.0-preview2-26406-04",
-          "NETStandard.Library": "2.0.1"
+          "Microsoft.NETCore.DotNetHostPolicy": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "NETStandard.Library": "2.0.3"
         },
         "compile": {
           "ref/netcoreapp2.1/Microsoft.CSharp.dll": {},
@@ -2583,22 +2583,22 @@
           "build/netcoreapp2.1/Microsoft.NETCore.App.targets": {}
         }
       },
-      "Microsoft.NETCore.DotNetAppHost/2.1.0-preview2-26406-04": {
+      "Microsoft.NETCore.DotNetAppHost/2.1.0-rc1": {
         "type": "package"
       },
-      "Microsoft.NETCore.DotNetHostPolicy/2.1.0-preview2-26406-04": {
+      "Microsoft.NETCore.DotNetHostPolicy/2.1.0-rc1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostResolver": "2.1.0-preview2-26406-04"
+          "Microsoft.NETCore.DotNetHostResolver": "2.1.0-rc1"
         }
       },
-      "Microsoft.NETCore.DotNetHostResolver/2.1.0-preview2-26406-04": {
+      "Microsoft.NETCore.DotNetHostResolver/2.1.0-rc1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.DotNetAppHost": "2.1.0-preview2-26406-04"
+          "Microsoft.NETCore.DotNetAppHost": "2.1.0-rc1"
         }
       },
-      "Microsoft.NETCore.Platforms/2.1.0-preview2-26406-04": {
+      "Microsoft.NETCore.Platforms/2.1.0-rc1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -2607,7 +2607,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.Targets/2.1.0-preview2-26406-04": {
+      "Microsoft.NETCore.Targets/2.1.0-rc1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -2639,7 +2639,7 @@
           }
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -6578,18 +6578,19 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "Microsoft.NETCore.App/2.1.0-preview2-26406-04": {
-      "sha512": "DuKpI7h85td1/OCZai6z8R6mBO7yHaCBEEVhDhjqg1u5l/ay4GKnqlnLS61BF0FXkIHNuw6ygCc2unlZfbeMlA==",
+    "Microsoft.NETCore.App/2.1.0-rc1": {
+      "sha512": "Y76lrh4O4CqQrZNp4CYcmdC8BmlMj8w19TMxJGogBZgciIq/h0Ine/gFivf2Qc4Ko2/CYafOIYBqyVqLYUXf8g==",
       "type": "package",
-      "path": "microsoft.netcore.app/2.1.0-preview2-26406-04",
+      "path": "microsoft.netcore.app/2.1.0-rc1",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "Microsoft.NETCore.App.versions.txt",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netcoreapp2.1/Microsoft.NETCore.App.PlatformManifest.txt",
         "build/netcoreapp2.1/Microsoft.NETCore.App.props",
         "build/netcoreapp2.1/Microsoft.NETCore.App.targets",
-        "microsoft.netcore.app.2.1.0-preview2-26406-04.nupkg.sha512",
+        "microsoft.netcore.app.2.1.0-rc1.nupkg.sha512",
         "microsoft.netcore.app.nuspec",
         "ref/netcoreapp/_._",
         "ref/netcoreapp2.1/Microsoft.CSharp.dll",
@@ -6842,66 +6843,71 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetAppHost/2.1.0-preview2-26406-04": {
-      "sha512": "rfq7ebJg1ln0PF+B96ZL4DlPs5eq2gxuwdtY/t4enNSepTYgcdLacTzown+PyAEKkGNQJEI6XKAPBqW+QBvYMg==",
+    "Microsoft.NETCore.DotNetAppHost/2.1.0-rc1": {
+      "sha512": "pljoDMtc2ZDWu+v2RosjokXh+PLgEofF4/Fk0ZFED0eFDlc7Cf3S9W9WTV1lSg2P0QUUxl9N9gNNlX2dcnAY6w==",
       "type": "package",
-      "path": "microsoft.netcore.dotnetapphost/2.1.0-preview2-26406-04",
+      "path": "microsoft.netcore.dotnetapphost/2.1.0-rc1",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnetapphost.2.1.0-preview2-26406-04.nupkg.sha512",
+        "microsoft.netcore.dotnetapphost.2.1.0-rc1.nupkg.sha512",
         "microsoft.netcore.dotnetapphost.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetHostPolicy/2.1.0-preview2-26406-04": {
-      "sha512": "7LjpjkLHmN7k7X5O2xcRVcbYUT/SNaZd4hftw4kud8paQYFLmIkoMKbmYMgxqTE/EqFWXi/cVmwyZhHNbnGcxA==",
+    "Microsoft.NETCore.DotNetHostPolicy/2.1.0-rc1": {
+      "sha512": "w60irQLvSJ/idAtGOm6yQPSrV8C8TEAPNyajjnw+e0cy00WTsM4c0412OVOLgBjnxSNUdSAh+552RzAGO6p0Pw==",
       "type": "package",
-      "path": "microsoft.netcore.dotnethostpolicy/2.1.0-preview2-26406-04",
+      "path": "microsoft.netcore.dotnethostpolicy/2.1.0-rc1",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnethostpolicy.2.1.0-preview2-26406-04.nupkg.sha512",
+        "microsoft.netcore.dotnethostpolicy.2.1.0-rc1.nupkg.sha512",
         "microsoft.netcore.dotnethostpolicy.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetHostResolver/2.1.0-preview2-26406-04": {
-      "sha512": "MlAPWqHXcK50vuIYxF21YAtrNOCmaajQjV6+SH9jxPSVAF9HnsKZ1RG29EaY5WJatO6P2riXksKal7kOaM5Qig==",
+    "Microsoft.NETCore.DotNetHostResolver/2.1.0-rc1": {
+      "sha512": "0desKuiIjUpcgmO1ViGKLTyhhO+CIRwN1Po/2DDQh9fHkXkxCHPKnZOKFjYMJSHohsliotAC99wZqYs9sKZkdQ==",
       "type": "package",
-      "path": "microsoft.netcore.dotnethostresolver/2.1.0-preview2-26406-04",
+      "path": "microsoft.netcore.dotnethostresolver/2.1.0-rc1",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.dotnethostresolver.2.1.0-preview2-26406-04.nupkg.sha512",
+        "microsoft.netcore.dotnethostresolver.2.1.0-rc1.nupkg.sha512",
         "microsoft.netcore.dotnethostresolver.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Platforms/2.1.0-preview2-26406-04": {
-      "sha512": "lGrQ17imLk/vVg/BneVtmFYA84nwn7I+hJdRtX5dd7PQ+XCdOZZxP2FLXrwDpGakUyMRsy3C1yDI5cDMc8ltEQ==",
+    "Microsoft.NETCore.Platforms/2.1.0-rc1": {
+      "sha512": "nsme5QrPBS8qq1FLFwbhhyOPMcQjhWd0pXCEIAnmtTacLdZZ+w54QiP7OaibGEyDdyhL/42ixsazNuP0irPKNw==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/2.1.0-preview2-26406-04",
+      "path": "microsoft.netcore.platforms/2.1.0-rc1",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.2.1.0-preview2-26406-04.nupkg.sha512",
+        "microsoft.netcore.platforms.2.1.0-rc1.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "Microsoft.NETCore.Targets/2.1.0-preview2-26406-04": {
-      "sha512": "1GU9N0IY0vomNMrjv1XY3jrm7W/zTyIOaSDPwTVOmh5y6AGQyAHCWw0AjS9pxsWFYHCx4ygq8fMo6PWsyCl5RQ==",
+    "Microsoft.NETCore.Targets/2.1.0-rc1": {
+      "sha512": "TmcnvHJlhTifhcw0C9ey85ag9xnRi4BLOZePCqfUnO3MS78ifKGBInIfQZxgKvGLjGhvwib4HCbagEtvQR2cEw==",
       "type": "package",
-      "path": "microsoft.netcore.targets/2.1.0-preview2-26406-04",
+      "path": "microsoft.netcore.targets/2.1.0-rc1",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.targets.2.1.0-preview2-26406-04.nupkg.sha512",
+        "microsoft.netcore.targets.2.1.0-rc1.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
@@ -6947,14 +6953,13 @@
         "version.txt"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -7071,7 +7076,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -11815,7 +11820,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.0-rc1-final",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.0-rc1-final",
-      "Microsoft.NETCore.App >= 2.1.0-preview2-26406-04"
+      "Microsoft.NETCore.App >= 2.1.0-rc1"
     ]
   },
   "packageFolders": {
@@ -11835,13 +11840,12 @@
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/joey/.nuget/NuGet/NuGet.Config"
+        "/Users/joey/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "/Users/joey/.dotnet/NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11867,8 +11871,9 @@
             "version": "[2.1.0-rc1-final, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.0-preview2-26406-04, )",
+            "version": "[2.1.0-rc1, )",
             "autoReferenced": true
           }
         },
