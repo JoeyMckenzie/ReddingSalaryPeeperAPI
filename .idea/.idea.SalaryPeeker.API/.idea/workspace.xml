@@ -40,14 +40,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SalaryPeekerDbContext.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="615">
               <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
               <folding>
-                <marker date="1527044974309" expanded="true" signature="6:67" ph="..." />
+                <marker date="1527044974309" expanded="false" signature="6:67" ph="..." />
                 <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
                 <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
                 <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
@@ -64,10 +64,10 @@
       <file leaf-file-name="SalaryController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="195">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <marker date="1527045213700" expanded="true" signature="6:177" ph="..." />
+                <marker date="1527045213700" expanded="false" signature="6:177" ph="..." />
                 <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
                 <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
                 <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
@@ -86,29 +86,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalaryPeeker.API.csproj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SalaryPeeker.API.csproj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SalaryPeeker.API.csproj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="529">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
-                <marker date="1527048396062" expanded="false" signature="6:266" ph="..." />
-                <marker date="1527048396062" expanded="true" signature="294:1447" ph="{...}" />
-                <marker date="1527048396062" expanded="true" signature="321:1445" ph="{...}" />
-                <marker date="1527048396062" expanded="true" signature="380:443" ph="{...}" />
-                <marker date="1527048396062" expanded="true" signature="666:975" ph="{...}" />
-                <marker date="1527048396062" expanded="true" signature="1163:1439" ph="{...}" />
-                <marker date="1527048396062" expanded="true" signature="1210:1287" ph="{...}" />
-                <marker date="1527048396062" expanded="true" signature="1304:1363" ph="{...}" />
+                <marker date="1527099425131" expanded="false" signature="6:266" ph="..." />
+                <marker date="1527099425131" expanded="true" signature="294:1616" ph="{...}" />
+                <marker date="1527099425131" expanded="true" signature="321:1614" ph="{...}" />
+                <marker date="1527099425131" expanded="true" signature="380:443" ph="{...}" />
+                <marker date="1527099425131" expanded="true" signature="666:1008" ph="{...}" />
+                <marker date="1527099425131" expanded="true" signature="1196:1608" ph="{...}" />
+                <marker date="1527099425131" expanded="true" signature="1243:1320" ph="{...}" />
+                <marker date="1527099425131" expanded="true" signature="1337:1396" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -131,6 +131,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/SalaryRecord.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/SalaryController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -141,9 +142,9 @@
         <option value="$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Controllers/SalaryController.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/SalaryPeeker.API.csproj" />
         <option value="$PROJECT_DIR$/global.json" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
       </list>
     </option>
   </component>
@@ -164,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -176,37 +178,12 @@
               <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Persistence" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,11 +231,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527044369251</updated>
       <workItem from="1527044371154" duration="3195000" />
+      <workItem from="1527099263893" duration="289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3195000" />
+    <option name="totallyTimeSpent" value="3484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,32 +248,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="NuGet" weight="0.44117647" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" weight="0.32956383" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.44117647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25612354" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,14 +288,60 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Models/SalaryRecord.cs">
+    <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="630">
+          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
           <folding>
-            <marker date="1527044911321" expanded="true" signature="6:47" ph="..." />
-            <marker date="1527044911321" expanded="true" signature="82:701" ph="{...}" />
-            <marker date="1527044911321" expanded="true" signature="114:699" ph="{...}" />
+            <marker date="1527044974309" expanded="false" signature="6:67" ph="..." />
+            <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="317:337" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="496:663" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="552:653" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="739:1662" ph="{...}" />
+            <marker date="1527044974309" expanded="true" signature="805:1649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1527045213700" expanded="false" signature="6:177" ph="..." />
+            <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527045213700" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527045213700" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527045213700" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527045213700" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527045213700" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527045213700" expanded="true" signature="2621:2788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <marker date="1527099425131" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099425131" expanded="true" signature="294:1616" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="321:1614" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="1196:1608" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="1337:1396" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -330,15 +353,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c5eaaee-0e06-4343-8656-71c0dbf3b755/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/SalaryPeeker.API.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/SalaryRecord.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="195">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1527045213700" expanded="true" signature="6:177" ph="..." />
+            <marker date="1527045213700" expanded="false" signature="6:177" ph="..." />
             <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
             <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
             <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
@@ -358,10 +399,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="615">
           <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
           <folding>
-            <marker date="1527044974309" expanded="true" signature="6:67" ph="..." />
+            <marker date="1527044974309" expanded="false" signature="6:67" ph="..." />
             <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
             <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
             <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
@@ -370,23 +411,6 @@
             <marker date="1527044974309" expanded="true" signature="552:653" ph="{...}" />
             <marker date="1527044974309" expanded="true" signature="739:1662" ph="{...}" />
             <marker date="1527044974309" expanded="true" signature="805:1649" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <marker date="1527048396062" expanded="false" signature="6:266" ph="..." />
-            <marker date="1527048396062" expanded="true" signature="294:1447" ph="{...}" />
-            <marker date="1527048396062" expanded="true" signature="321:1445" ph="{...}" />
-            <marker date="1527048396062" expanded="true" signature="380:443" ph="{...}" />
-            <marker date="1527048396062" expanded="true" signature="666:975" ph="{...}" />
-            <marker date="1527048396062" expanded="true" signature="1163:1439" ph="{...}" />
-            <marker date="1527048396062" expanded="true" signature="1210:1287" ph="{...}" />
-            <marker date="1527048396062" expanded="true" signature="1304:1363" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -401,7 +425,24 @@
     <entry file="file://$PROJECT_DIR$/SalaryPeeker.API.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <marker date="1527099425131" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099425131" expanded="true" signature="294:1616" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="321:1614" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="1196:1608" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099425131" expanded="true" signature="1337:1396" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
