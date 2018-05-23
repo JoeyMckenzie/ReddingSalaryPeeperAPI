@@ -9,6 +9,7 @@
         <e p="SalaryController.cs" t="Include" />
         <e p="ValuesController.cs" t="Include" />
       </e>
+      <e p="global.json" t="Include" />
       <e p="Models" t="Include">
         <e p="SalaryRecord.cs" t="Include" />
       </e>
@@ -33,5 +34,6 @@
       <e p="Startup.cs" t="Include" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_SalaryPeeker.API.637090619.00" t="ExcludeRecursive" />
+    <e p="/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.aspnetcore.identity.ui/2.1.0-preview2-final/contentFiles/any/netstandard2.0/THIRD-PARTY-NOTICES" t="Include" />
   </component>
 </project>
