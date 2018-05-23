@@ -39,7 +39,6 @@ namespace SalaryPeeker.API
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
