@@ -1,7 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d66acd7-37fd-47d5-bb15-466b349423d4" name="Default" comment="" />
+    <list default="true" id="8d66acd7-37fd-47d5-bb15-466b349423d4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Antiforgery.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.Cookies.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.Facebook.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.Google.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.JwtBearer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.OAuth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.Twitter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.WsFederation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authentication.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authorization.Policy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Authorization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Connections.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.CookiePolicy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Cors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Cryptography.Internal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.DataProtection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Diagnostics.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Diagnostics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.HostFiltering.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Hosting.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Html.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Http.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Http.Connections.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Http.Connections.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Http.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Http.Features.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.HttpOverrides.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.HttpsPolicy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Identity.UI.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Identity.UI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Identity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.JsonPatch.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Localization.Routing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Localization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.MiddlewareAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.ApiExplorer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Cors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.DataAnnotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Formatters.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Localization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.RazorPages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.TagHelpers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.ViewFeatures.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.NodeServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Owin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Razor.Language.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Razor.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.ResponseCaching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.ResponseCompression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Rewrite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Routing.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Routing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Server.HttpSys.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Server.IISIntegration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Server.Kestrel.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Server.Kestrel.Https.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Server.Kestrel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.Session.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.SignalR.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.SignalR.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.SignalR.Protocols.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.SignalR.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.SpaServices.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.SpaServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.StaticFiles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.WebSockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.WebUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.AspNetCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Data.Sqlite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.DotNet.PlatformAbstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.EntityFrameworkCore.InMemory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.EntityFrameworkCore.Sqlite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Caching.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.CommandLine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.FileExtensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.Ini.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.KeyPerFile.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.UserSecrets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.DiagnosticAdapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.FileProviders.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.FileProviders.Composite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.FileProviders.Embedded.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.FileProviders.Physical.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.FileSystemGlobbing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Hosting.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Identity.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Identity.Stores.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Localization.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Localization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Logging.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Logging.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Logging.Debug.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Logging.EventSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Logging.TraceSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.ObjectPool.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Options.ConfigurationExtensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Extensions.WebEncoders.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.IdentityModel.Protocols.WsFederation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.IdentityModel.Tokens.Saml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.IdentityModel.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Net.Http.Headers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.VisualBasic.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Win32.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Microsoft.Win32.Registry.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Newtonsoft.Json.Bson.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/Remotion.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/SQLitePCLRaw.batteries_green.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/SQLitePCLRaw.batteries_v2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/SQLitePCLRaw.core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/SQLitePCLRaw.provider.e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.AppContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Collections.Concurrent.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Collections.NonGeneric.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Collections.Specialized.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Collections.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.DataAnnotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.EventBasedAsync.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.TypeConverter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ComponentModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Console.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Data.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.Debug.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.Process.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.TextWriterTraceListener.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.Tools.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.TraceSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Diagnostics.Tracing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Drawing.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Drawing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Dynamic.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Globalization.Calendars.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Globalization.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Globalization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.Compression.Brotli.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.Compression.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.Compression.ZipFile.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.FileSystem.DriveInfo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.FileSystem.Watcher.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.IsolatedStorage.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.MemoryMappedFiles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.Pipes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.UnmanagedMemoryStream.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IO.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Interactive.Async.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Linq.Expressions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Linq.Parallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Linq.Queryable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Http.Formatting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.HttpListener.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Mail.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.NameResolution.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.NetworkInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Ping.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Requests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.ServicePoint.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.Sockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.WebClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.WebHeaderCollection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.WebProxy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.WebSockets.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.WebSockets.WebSocketProtocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.WebSockets.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Numerics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ObjectModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.DispatchProxy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.Emit.ILGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.Emit.Lightweight.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.Emit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.TypeExtensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Reflection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Resources.Reader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Resources.ResourceManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Resources.Writer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.CompilerServices.VisualC.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Handles.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.InteropServices.WindowsRuntime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.InteropServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Loader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Numerics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Serialization.Formatters.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Serialization.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Serialization.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Serialization.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.Serialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Claims.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Cryptography.Cng.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Cryptography.Csp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Cryptography.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.Principal.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.SecureString.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ServiceModel.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ServiceProcess.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Text.Encoding.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Text.Encoding.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Text.RegularExpressions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Channels.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Overlapped.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Tasks.Dataflow.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Tasks.Parallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Tasks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Thread.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.ThreadPool.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.Timer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Threading.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Transactions.Local.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Transactions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Web.HttpUtility.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.ReaderWriter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.Serialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.XPath.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.XmlSerializer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/System.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/WindowsBase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/mscorlib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/refs/netstandard.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.RazorAssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,46 +369,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SalaryPeekerDbContext.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-              <folding>
-                <marker date="1527044974309" expanded="false" signature="6:67" ph="..." />
-                <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
-                <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
-                <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
-                <marker date="1527044974309" expanded="true" signature="317:337" ph="{...}" />
-                <marker date="1527044974309" expanded="true" signature="496:663" ph="{...}" />
-                <marker date="1527044974309" expanded="true" signature="552:653" ph="{...}" />
-                <marker date="1527044974309" expanded="true" signature="739:1662" ph="{...}" />
-                <marker date="1527044974309" expanded="true" signature="805:1649" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SalaryController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="138">
+              <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
               <folding>
-                <marker date="1527045213700" expanded="false" signature="6:177" ph="..." />
-                <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
-                <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
-                <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
-                <marker date="1527045213700" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
-                <marker date="1527045213700" expanded="true" signature="598:742" ph="{...}" />
-                <marker date="1527045213700" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
-                <marker date="1527045213700" expanded="true" signature="1083:2103" ph="{...}" />
-                <marker date="1527045213700" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
-                <marker date="1527045213700" expanded="true" signature="1443:1719" ph="{...}" />
-                <marker date="1527045213700" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
-                <marker date="1527045213700" expanded="true" signature="2287:2465" ph="{...}" />
-                <marker date="1527045213700" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
-                <marker date="1527045213700" expanded="true" signature="2621:2788" ph="{...}" />
+                <marker date="1527458958773" expanded="false" signature="6:177" ph="..." />
+                <marker date="1527458958773" expanded="true" signature="217:2805" ph="{...}" />
+                <marker date="1527458958773" expanded="true" signature="298:2803" ph="{...}" />
+                <marker date="1527458958773" expanded="true" signature="425:477" ph="{...}" />
+                <marker date="1527458958773" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+                <marker date="1527458958773" expanded="true" signature="598:742" ph="{...}" />
+                <marker date="1527458958773" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+                <marker date="1527458958773" expanded="true" signature="1083:2103" ph="{...}" />
+                <marker date="1527458958773" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+                <marker date="1527458958773" expanded="true" signature="1443:1719" ph="{...}" />
+                <marker date="1527458958773" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+                <marker date="1527458958773" expanded="true" signature="2287:2465" ph="{...}" />
+                <marker date="1527458958773" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+                <marker date="1527458958773" expanded="true" signature="2621:2788" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,17 +406,17 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="240">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
-                <marker date="1527099425131" expanded="false" signature="6:266" ph="..." />
-                <marker date="1527099425131" expanded="true" signature="294:1616" ph="{...}" />
-                <marker date="1527099425131" expanded="true" signature="321:1614" ph="{...}" />
-                <marker date="1527099425131" expanded="true" signature="380:443" ph="{...}" />
-                <marker date="1527099425131" expanded="true" signature="666:1008" ph="{...}" />
-                <marker date="1527099425131" expanded="true" signature="1196:1608" ph="{...}" />
-                <marker date="1527099425131" expanded="true" signature="1243:1320" ph="{...}" />
-                <marker date="1527099425131" expanded="true" signature="1337:1396" ph="{...}" />
+                <marker date="1527099671363" expanded="false" signature="6:266" ph="..." />
+                <marker date="1527099671363" expanded="true" signature="294:1576" ph="{...}" />
+                <marker date="1527099671363" expanded="true" signature="321:1574" ph="{...}" />
+                <marker date="1527099671363" expanded="true" signature="380:443" ph="{...}" />
+                <marker date="1527099671363" expanded="true" signature="666:1008" ph="{...}" />
+                <marker date="1527099671363" expanded="true" signature="1196:1568" ph="{...}" />
+                <marker date="1527099671363" expanded="true" signature="1243:1320" ph="{...}" />
+                <marker date="1527099671363" expanded="true" signature="1337:1396" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -141,10 +449,10 @@
         <option value="$PROJECT_DIR$/Models/SalaryRecord.cs" />
         <option value="$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Controllers/SalaryController.cs" />
         <option value="$PROJECT_DIR$/SalaryPeeker.API.csproj" />
         <option value="$PROJECT_DIR$/global.json" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Controllers/SalaryController.cs" />
       </list>
     </option>
   </component>
@@ -154,10 +462,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,7 +476,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -178,12 +488,37 @@
               <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Persistence" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker.API (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,12 +566,16 @@
       <option name="presentableId" value="Default" />
       <updated>1527044369251</updated>
       <workItem from="1527044371154" duration="3195000" />
-      <workItem from="1527099263893" duration="289000" />
+      <workItem from="1527099263893" duration="1020000" />
+      <workItem from="1527367841439" duration="61000" />
+      <workItem from="1527458728454" duration="236000" />
+      <workItem from="1529354199337" duration="104000" />
+      <workItem from="1531091968765" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3484000" />
+    <option name="totallyTimeSpent" value="4769000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,7 +587,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -258,9 +598,9 @@
       <window_info anchor="bottom" id="REST Client" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32647058" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.44117647" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25612354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27059773" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,6 +619,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -288,21 +629,240 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding>
+            <marker date="1527458958773" expanded="false" signature="6:177" ph="..." />
+            <marker date="1527458958773" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527458958773" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527458958773" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527458958773" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527458958773" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527458958773" expanded="true" signature="2621:2788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryPeeker.API.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <folding>
+            <marker date="1527099671363" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099671363" expanded="true" signature="294:1576" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="321:1574" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1196:1568" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1337:1396" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <marker date="1527458958773" expanded="false" signature="6:177" ph="..." />
+            <marker date="1527458958773" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527458958773" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527458958773" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527458958773" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527458958773" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527458958773" expanded="true" signature="2621:2788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryPeeker.API.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <folding>
+            <marker date="1527099671363" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099671363" expanded="true" signature="294:1576" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="321:1574" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1196:1568" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1337:1396" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1527458958773" expanded="false" signature="6:177" ph="..." />
+            <marker date="1527458958773" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527458958773" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527458958773" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527458958773" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527458958773" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527458958773" expanded="true" signature="2621:2788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryPeeker.API.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <folding>
+            <marker date="1527099671363" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099671363" expanded="true" signature="294:1576" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="321:1574" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1196:1568" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1337:1396" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1527458958773" expanded="false" signature="6:177" ph="..." />
+            <marker date="1527458958773" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527458958773" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527458958773" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527458958773" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527458958773" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527458958773" expanded="true" signature="2621:2788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryPeeker.API.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <folding>
+            <marker date="1527099671363" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099671363" expanded="true" signature="294:1576" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="321:1574" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1196:1568" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1337:1396" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-          <folding>
-            <marker date="1527044974309" expanded="false" signature="6:67" ph="..." />
-            <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="317:337" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="496:663" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="552:653" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="739:1662" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="805:1649" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -311,20 +871,20 @@
         <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1527045213700" expanded="false" signature="6:177" ph="..." />
-            <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
-            <marker date="1527045213700" expanded="true" signature="598:742" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
-            <marker date="1527045213700" expanded="true" signature="1083:2103" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
-            <marker date="1527045213700" expanded="true" signature="1443:1719" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
-            <marker date="1527045213700" expanded="true" signature="2287:2465" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
-            <marker date="1527045213700" expanded="true" signature="2621:2788" ph="{...}" />
+            <marker date="1527458958773" expanded="false" signature="6:177" ph="..." />
+            <marker date="1527458958773" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527458958773" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527458958773" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527458958773" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527458958773" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527458958773" expanded="true" signature="2621:2788" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -334,14 +894,14 @@
         <state relative-caret-position="525">
           <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <marker date="1527099425131" expanded="false" signature="6:266" ph="..." />
-            <marker date="1527099425131" expanded="true" signature="294:1616" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="321:1614" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="380:443" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="666:1008" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="1196:1608" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="1243:1320" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="1337:1396" ph="{...}" />
+            <marker date="1527099671363" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099671363" expanded="true" signature="294:1576" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="321:1574" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1196:1568" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1337:1396" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -374,51 +934,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+    <entry file="file://$PROJECT_DIR$/global.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1527045213700" expanded="false" signature="6:177" ph="..." />
-            <marker date="1527045213700" expanded="true" signature="217:2805" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="298:2803" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="425:477" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
-            <marker date="1527045213700" expanded="true" signature="598:742" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
-            <marker date="1527045213700" expanded="true" signature="1083:2103" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
-            <marker date="1527045213700" expanded="true" signature="1443:1719" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
-            <marker date="1527045213700" expanded="true" signature="2287:2465" ph="{...}" />
-            <marker date="1527045213700" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
-            <marker date="1527045213700" expanded="true" signature="2621:2788" ph="{...}" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Persistence/SalaryPeekerDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="591">
           <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-          <folding>
-            <marker date="1527044974309" expanded="false" signature="6:67" ph="..." />
-            <marker date="1527044974309" expanded="true" signature="107:1670" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="160:1668" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="205:225" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="317:337" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="496:663" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="552:653" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="739:1662" ph="{...}" />
-            <marker date="1527044974309" expanded="true" signature="805:1649" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global.json">
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="138">
+          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding>
+            <marker date="1527458958773" expanded="false" signature="6:177" ph="..." />
+            <marker date="1527458958773" expanded="true" signature="217:2805" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="298:2803" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="425:477" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="487:523" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527458958773" expanded="true" signature="598:742" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="752:825" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527458958773" expanded="true" signature="1083:2103" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="1106:1190" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527458958773" expanded="true" signature="1443:1719" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2122:2171" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527458958773" expanded="true" signature="2287:2465" ph="{...}" />
+            <marker date="1527458958773" expanded="true" signature="2483:2528" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527458958773" expanded="true" signature="2621:2788" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,17 +980,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="240">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
-            <marker date="1527099425131" expanded="false" signature="6:266" ph="..." />
-            <marker date="1527099425131" expanded="true" signature="294:1616" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="321:1614" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="380:443" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="666:1008" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="1196:1608" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="1243:1320" ph="{...}" />
-            <marker date="1527099425131" expanded="true" signature="1337:1396" ph="{...}" />
+            <marker date="1527099671363" expanded="false" signature="6:266" ph="..." />
+            <marker date="1527099671363" expanded="true" signature="294:1576" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="321:1574" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="380:443" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="666:1008" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1196:1568" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1243:1320" ph="{...}" />
+            <marker date="1527099671363" expanded="true" signature="1337:1396" ph="{...}" />
           </folding>
         </state>
       </provider>

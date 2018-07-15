@@ -41,7 +41,7 @@ namespace SalaryPeeker.API
                 app.UseHsts();
             }
 
-            app.UseCors(options => options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+            app.UseCors(options => options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
             app.UseHttpsRedirection();
             app.UseMvc();
         }
