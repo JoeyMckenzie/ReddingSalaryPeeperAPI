@@ -1,90 +1,87 @@
-﻿using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using SalaryPeeker.API.Persistence;
+using SalaryPeeker.API.Persistence.Repository;
 
 namespace SalaryPeeker.API.Controllers
 {
+    /// <inheritdoc />
+    /// <summary>
+    /// Controller for retrieving data 
+    /// </summary>
     [Route("api/[controller]")]
+    [EnableCors("SalaryPeeperPolicy")]
     public class SalaryController : Controller
     {
-        private readonly SalaryPeekerDbContext _context;
+        private readonly ISalaryPeeperRepository _repository;
 
-        public SalaryController(SalaryPeekerDbContext context)
+        public SalaryController(ISalaryPeeperRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
-        //
-        // GET: /api/salary-data/
+        /// <summary>
+        /// Return all salary data from database
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> AllSalaryData()
         {
-            var model = await _context.SalaryRecords.ToListAsync();
-            
+            var model = await _repository.GetAllSalaryRecords();
             
             return Ok(model);
         }
 
-        //
-        // GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year
+        /// <summary>
+        /// Retrieve salaries by agency, range, year, or a combination of all three
+        /// 
+        /// GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year
+        /// </summary>
+        /// <param name="agency">Shasta County office, or City of Redding office</param>
+        /// <param name="lowerLimit">Lower limit to salary</param>
+        /// <param name="upperLimit">Upper limit to salary</param>
+        /// <param name="year">Salary data fiscal year</param>
+        /// <returns>List of salary data with given parameters</returns>
         [HttpGet("{agency}")]
         [HttpGet("{agency}/{lowerLimit}/{upperLimit}")]
         [HttpGet("{agency}/{lowerLimit}/{upperLimit}/{year}")]
-        public IActionResult GetFilteredSalaries(string agency, int? lowerLimit, int? upperLimit, int? year)
+        public async Task<IActionResult> GetFilteredSalaries(string agency, int? lowerLimit, int? upperLimit, int? year)
         {
-            //
-            // Salary range will always come in a pair, so just check lower limit
-            var useSalaryRange = lowerLimit != null;
-            var useYear = year != null;
-            var useAgency = agency != "All";
-            
-            var model = _context.SalaryRecords.AsQueryable();
-            
-            if (useAgency)
-            {
-                var textInfo = Thread.CurrentThread.CurrentCulture.TextInfo;
-                agency = textInfo.ToTitleCase(agency);
+            var model = await _repository.GetFilteredSalaryRecords(agency, lowerLimit, upperLimit, year);
 
-                model = from m in model
-                    where m.Agency == agency
-                    select m;
-            }
-
-            if (useSalaryRange)
-                model = from m in model
-                    where m.TotalPayBenefits >= lowerLimit && m.TotalPayBenefits < upperLimit
-                    select m;
-
-            if (useYear)
-                model = from m in model
-                    where m.Year == year
-                    select m;
-
-            return Ok(model.ToList());
+            return Ok(model);
         }
 
         
-        //
-        // GET /api/salary-data/employee/:name
+        /// <summary>
+        /// Retrieve salary by employee name
+        ///
+        /// GET /api/salary-data/employee/:name
+        /// </summary>
+        /// <param name="employeeName">Employee name, either first/last, or a combination of both</param>
+        /// <returns>Salary by employee name</returns>
         [HttpGet("employee/{employeeName}")]
-        public IActionResult SearchByEmployeeName(string employeeName)
+        public async Task<IActionResult> SearchByEmployeeName(string employeeName)
         {
-            var model = _context.SalaryRecords.Where(m => m.EmployeeName.ToLower().Contains(employeeName.ToLower()));
+            var model = await _repository.GetEmployeeSalaryRecords(employeeName);
 
-            return Ok(model.ToList());
+            return Ok(model);
         }
         
-        //
-        // GET /api/salary-data/job/:title
+        /// <summary>
+        /// Retrive salaries by job title
+        ///
+        /// GET /api/salary-data/job/:title
+        /// </summary>
+        /// <param name="title">Job title</param>
+        /// <returns>Salaries by job title/descriptor</returns>
         [HttpGet("job/{title}")]
-        public IActionResult SearchByJobTitle(string title)
+        public async Task<IActionResult> SearchByJobTitle(string title)
         {
-            var model = _context.SalaryRecords.Where(m => m.JobTitle.ToLower().Contains(title.ToLower()));
+            var model = await _repository.GetJobSalaryRecords(title);
 
-            return Ok(model.ToList());
+            return Ok(model);
         }
         
     }

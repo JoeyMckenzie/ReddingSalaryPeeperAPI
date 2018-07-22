@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SalaryPeeker.API.Persistence;
+using SalaryPeeker.API.Persistence.Repository;
 
 namespace SalaryPeeker.API
 {
@@ -24,7 +25,17 @@ namespace SalaryPeeker.API
             services.AddDbContext<SalaryPeekerDbContext>(options => 
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddCors();
+            // Configure cross-origin requests
+            services.AddCors(options => options.AddPolicy("SalaryPeeperPolicy", policyBuilder =>
+            {
+                policyBuilder
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowAnyOrigin();
+            }));
+            
+            // Add scoped instance of the repository
+            services.AddScoped<ISalaryPeeperRepository, SalaryPeeperRepository>();
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -41,7 +52,7 @@ namespace SalaryPeeker.API
                 app.UseHsts();
             }
 
-            app.UseCors(options => options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
+            app.UseCors("SalaryPeeperPolicy");
             app.UseHttpsRedirection();
             app.UseMvc();
         }
