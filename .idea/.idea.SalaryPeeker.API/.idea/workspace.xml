@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d66acd7-37fd-47d5-bb15-466b349423d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Persistence/Repository/ISalaryPeeperRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Repository/SalaryPeeperRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker.API/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/SalaryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SalaryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ValuesController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SalaryPeeker.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/SalaryPeeker.API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SalaryPeeker.API.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/SalaryPeeker.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SalaryPeeker.API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-    </list>
+    <list default="true" id="8d66acd7-37fd-47d5-bb15-466b349423d4" name="Default" comment="Updating CORS policy" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -119,6 +103,15 @@
                 <marker date="1532277968135" expanded="true" signature="1727:1804" ph="{...}" />
                 <marker date="1532277968135" expanded="true" signature="1821:1880" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -321,12 +314,12 @@
       <workItem from="1529354199337" duration="104000" />
       <workItem from="1531091968765" duration="153000" />
       <workItem from="1531683695049" duration="238000" />
-      <workItem from="1532215864001" duration="4750000" />
+      <workItem from="1532215864001" duration="5530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9757000" />
+    <option name="totallyTimeSpent" value="10537000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,7 +332,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -349,7 +341,7 @@
       <window_info anchor="bottom" id="REST Client" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32647058" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32647058" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.44117647" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2786753" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -379,6 +371,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Updating CORS policy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating CORS policy" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
@@ -842,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0F588D35-4715-412E-8412-655FB4593CE4/34/d7dd3899/HstsBuilderExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -948,6 +935,13 @@
             <marker date="1532277968135" expanded="true" signature="1727:1804" ph="{...}" />
             <marker date="1532277968135" expanded="true" signature="1821:1880" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

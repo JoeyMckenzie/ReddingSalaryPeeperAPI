@@ -1,0 +1,22 @@
+GET https://localhost:5001/api/salary
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-22T092237.200.json
+
+###
+
+GET https://localhost:5001/api/salary
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-22T092231.200.json
+
+###
+
+GET https://localhost:5001/api/salary
+Accept: */*
+Cache-Control: no-cache
+
+###
+
