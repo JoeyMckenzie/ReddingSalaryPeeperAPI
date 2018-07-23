@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using SalaryPeeker.API.Persistence;
 using SalaryPeeker.API.Persistence.Repository;
 
 namespace SalaryPeeker.API.Controllers
